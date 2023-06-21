@@ -9,6 +9,13 @@ body {
     justify-content: center;
 }
 
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+}
+
 #works {
     height: 100vh;
     display: flex;
@@ -26,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 4em 2em 0 2em 
 }
 
 .image-container {
