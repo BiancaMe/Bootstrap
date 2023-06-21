@@ -12,12 +12,12 @@ body {
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
+    font-weight: 800;
     line-height: 60px;
-    color: #091e42;
+    color: #29b0b3;
 }
 
 #works {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,18 +26,21 @@ h1{
 
 .card {
     width: 60rem;
-    height: 34rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 4em 2em 0 2em 
+  margin: 4em 2em 0 2em;
 }
 
 .image-container {
-  padding: 24px 0 24px 24px;
+  padding: 12px 0 12px 24px;
 }
 
 
