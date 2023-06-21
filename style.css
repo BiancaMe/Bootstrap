@@ -1,0 +1,25 @@
+body {
+    position: relative;
+}
+
+#home {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#works {
+    height: 100vh;
+}
+
+.card {
+    width: 60rem;
+    height: 24rem;
+}
+
+
+
+#contact {
+    height: 100vh;
+}
