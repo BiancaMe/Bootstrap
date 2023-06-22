@@ -15,7 +15,7 @@
     <header>
       <nav
         id="navbar"
-        class="navbar navbar-expand-lg navbar-light fixed-top bg-info"
+        class="navbar navbar-expand-lg fixed-top bg-info "
       >
         <div class="container">
           <a id="logo" class="navbar-brand" href="#home">Portfolio</a>
@@ -63,8 +63,8 @@
                   <button type="button" class="btn btn-primary">javaScript</button>
                 </div>
               </div>
-              <button type="button" class="btn btn-primary">
-                <a href="#">See Project</a>
+              <button type="button" class="btn btn-info mt-5 ">
+                <a  class="link-light" href="#">See Project</a>
               </button>
             </div>
           </div>
@@ -94,8 +94,8 @@
                   <button type="button" class="btn btn-primary">javaScript</button>
                 </div>
               </div>
-             <button type="button" class="btn btn-primary">
-                <a href="#">See Project</a>
+              <button type="button" class="btn btn-info mt-5 ">
+                <a  class="link-light" href="#">See Project</a>
               </button>
             </div>
           </div>
@@ -125,8 +125,8 @@
                   <button type="button" class="btn btn-primary">javaScript</button>
                 </div>
               </div>              
-              <button type="button" class="btn btn-primary">
-                <a href="#">See Project</a>
+              <button type="button" class="btn btn-info mt-5 ">
+                <a  class="link-light" href="#">See Project</a>
               </button>
             </div>
           </div>
@@ -155,22 +155,22 @@
                   <button type="button" class="btn btn-primary">javaScript</button>
                 </div>
               </div>
-              <button type="button" class="btn btn-primary">
-                <a href="#">See Project</a>
+              <button type="button" class="btn btn-info mt-5 ">
+                <a  class="link-light" href="#">See Project</a>
               </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="contact" class="container-fluid p-3 mb-2 bg-info text-white">
-      <h2>Contact us</h2>
-      <p>
+    <section id="contact" class="container-fluid p-3 mb-2 bg-info">
+      <h2 class="text-white">Contact us</h2>
+      <p class=" text-center w-50 text-white ">
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I'd love to help
         with it!
       </p>
-      <form id="contact-form">
+      <form id="contact-form" class="w-50">
         <div class="mb-3">
           <label for="email" class="form-label">Name</label>
           <input
@@ -194,16 +194,31 @@
           <label for="text-area" class="form-label">Comment</label>
           <textarea
             class="form-control"
-            id="email"
+            id="text"
             placeholder="Comment here"
             required
-          >
-          </textarea>
+          ></textarea>
         </div>
         <div class="mb-3">
-          <button class="btn btn-ptimary" type="submit">Submit</button>
+          <button class="btn btn-secondary w-100"  data-bs-toggle="modal" data-bs-target="#modal-msg" type="submit">Submit</button>
         </div>
       </form>
+      <div class="modal fade" id="modal-msg" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Reminder</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Remember to check your mailbox for the answer.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okay</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
